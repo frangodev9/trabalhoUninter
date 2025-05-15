@@ -1,0 +1,88 @@
+body {
+    font-family: 'Fira Code', monospace;
+    background-color: #0F172A;
+    color: #E2E8F0;
+    padding: 20px;
+  }
+  h1{
+    text-align: center;
+    color: #38BDF8;
+    font-family: 'Fira Code', monospace;
+    font-size: 35px;
+  }
+  .divcol {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .coluna {
+    flex: 1;
+    min-width: 300px;
+    background-color: #1E293B;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #ffcc00;
+  }
+  
+  img {
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  .corlink{
+    color: rgb(20, 220, 187);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.corlink:hover{
+    color: chartreuse;
+} 
+.paragrafo{
+  font-size: 20px;
+  text-align: justify;
+  margin-left: 35px;
+
+}
+
+table tr:hover{
+    background-color: #0F172A;
+}
+.titulo{
+  font-size: 15px
+}
+ul{
+  margin-bottom: 35px;
+  list-style-type: disc;
+}
+
+.mensagem1{
+  margin-top: 10px;
+    padding: 10px 20px;
+    font-family: 'Fira Code', monospace;
+    font-size: 28px;
+    background-color: rgb(20, 220, 187);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.botaomensagem:hover {
+    background-color: #4546a0;
+}
+.mensagemoculta {
+    display: none;
+    margin-top: 10px;
+    font-family: 'Fira Code', monospace;
+    color: #333;
+    font-size: 28px;
+}
